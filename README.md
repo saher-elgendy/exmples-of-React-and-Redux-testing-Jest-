@@ -1,1 +1,1 @@
-## React Testing Examples(Jest - React Testing Library)
+## React and Redux Testing Examples(Jest - React Testing Library)
