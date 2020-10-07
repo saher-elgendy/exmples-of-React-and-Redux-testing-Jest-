@@ -1,0 +1,46 @@
+{
+    "books": [
+        {
+            "name": "The Secret",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81MArWaiw1L.jpg",
+            "pagesNumber": "198",
+            "author": "Rhonda Byrne"
+        },
+        {
+            "name": "Rich Dad Poor Dad",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/91VokXkn8hL.jpg",
+            "pagesNumber": "207",
+            "author": "Robert Kiyosaki, Sharon Lechter"
+        },
+        {
+            "name": "The Power of your subconscious mind",
+            "cover": "https://kbimages1-a.akamaihd.net/fc733be2-3a1b-4de4-a05e-fb61552bfe65/1200/1200/False/the-power-of-your-subconscious-mind-55.jpg",
+            "pagesNumber": "218 ",
+            "author": "Joseph Murphy"
+        },
+        {
+            "name": "War and Peace",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/A1aDb5U5myL.jpg",
+            "pagesNumber": "1,225",
+            "author": "Leo Tolstoy"
+        },
+        {
+            "name": "Harry Potter and the Philosopher's Stone",
+            "cover": "https://www.nts.org.uk/shop/pub/media/catalog/product/cache/1b389a9d1ab45c5cdf36a9e5ad08b8b1/i/m/img_1424_rt.jpg",
+            "pagesNumber": "223",
+            "author": "J.K. Rowling"
+        },
+        {
+            "name": "Introduction to Algorithms",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/61uRpcdPhNL.jpg",
+            "pagesNumber": "1,312",
+            "author": "Charles E. Leiserson"
+        },
+        {
+            "name": "The Great Gatsby",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
+            "pagesNumber": "218",
+            "author": "F. Scott Fitzgerald"
+        }
+    ]
+}
