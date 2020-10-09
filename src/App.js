@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import './App.css';
 import { connect } from 'react-redux'
 import { fetchData } from './redux/actions';
-import BookShelf from './components/bookShelf';
 import Bag from './components/bag';
+import Bookstore from './components/bookStore';
 
 
-function App({ fetchData, data: { loading, errors, books } }) {
+function App({ fetchData, data: { loading, error, books } }) {
   useEffect(() => {
     fetchData()
   }, []);
@@ -18,14 +18,16 @@ function App({ fetchData, data: { loading, errors, books } }) {
         <Bag />
       </header>
       {
-        !loading ? <BookShelf books={books} /> : '...loading books'
+        error ? error :
+          !loading ? <Bookstore books={books} /> : '...loading books'
       }
+
     </div>
   );
 }
 
 const mapStateToProps = state => ({
-  data: state.data
+  data: state.data,
 });
 
 export default connect(mapStateToProps, { fetchData })(App);
