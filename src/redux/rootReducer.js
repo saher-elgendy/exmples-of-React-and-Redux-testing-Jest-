@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import { dataReducer } from './reducer';
+import bagReducer from './reducers/bagReducer';
+import  dataReducer  from './reducers/dataReducer';
 
 export default combineReducers({
-    data: dataReducer
+    data: dataReducer,
+    bag: bagReducer
 })
