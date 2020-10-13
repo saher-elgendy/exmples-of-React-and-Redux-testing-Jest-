@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "jest": "^26.5.0"
+    "jest": "^26.5.0",
+    "redux-mock-store": "^1.5.4"
   }
 }
