@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render App correctly with given redux state 1`] = `
+<div
+  class="App"
+>
+  <header
+    data-testid="header"
+  >
+    <h2>
+      React Testing
+    </h2>
+    <div
+      class="bag"
+    >
+      <div
+        class="bag-container"
+      >
+        <span
+          class="book-count"
+        >
+          0
+        </span>
+        <img
+          alt="bag"
+          src="icon.png"
+        />
+      </div>
+    </div>
+  </header>
+  <div
+    class="book-store"
+  >
+    <ul
+      class="books-list"
+    />
+  </div>
+</div>
+`;
