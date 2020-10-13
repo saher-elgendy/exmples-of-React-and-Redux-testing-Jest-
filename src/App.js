@@ -8,7 +8,7 @@ import Bookstore from './components/bookStore';
 
 function App({ fetchData, data: { loading, error, books } }) {
   useEffect(() => {
-    fetchData()
+   fetchData()
   }, []);
 
   return (
@@ -19,9 +19,8 @@ function App({ fetchData, data: { loading, error, books } }) {
       </header>
       {
         error ? error :
-          !loading ? <Bookstore books={books} /> : '...loading books'
+          !loading ? <Bookstore books={books} /> : <span data-testid='loading-message'>...loading books</span>
       }
-
     </div>
   );
 }
