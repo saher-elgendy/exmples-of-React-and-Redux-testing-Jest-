@@ -30,7 +30,7 @@ const Bag = ({ bag }) => {
                     open && <div className="bag-content">
                         <ul className="bag-books">
                             {
-                                bag.map((book, i) => {
+                                bag.length ? bag.map((book, i) => {
                                     return (
                                         <>
                                             <li key={i} className="bag-item">
@@ -51,7 +51,7 @@ const Bag = ({ bag }) => {
                                         </>
                                     )
 
-                                })
+                                }) : <span className="no-books">No books found</span>
                             }
                         </ul>
                     </div>
