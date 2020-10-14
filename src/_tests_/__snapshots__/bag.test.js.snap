@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bag render correctly when the use click the bag icon 1`] = `
+<div
+  class="bag"
+>
+  <div
+    class="bag-container"
+  >
+    <span
+      class="books-count"
+      data-testid="books-count"
+    >
+      0
+    </span>
+    <img
+      alt="bag"
+      data-testid="bag-image"
+      src="icon.png"
+    />
+  </div>
+</div>
+`;
