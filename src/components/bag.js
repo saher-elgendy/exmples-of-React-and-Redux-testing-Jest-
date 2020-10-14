@@ -23,11 +23,11 @@ const Bag = ({ bag }) => {
     return (
         <div className="bag">
             <div className="bag-container">
-                <span className="book-count">{bag.length}</span>
-                <img src={bagIcon} alt="bag" onClick={toggleOpenBag} />
+                <span className="books-count" data-testid="books-count">{bag.length}</span>
+                <img src={bagIcon} alt="bag" onClick={toggleOpenBag} data-testid="bag-image"/>
 
                 {
-                    open && <div className="bag-content">
+                    open && <div className="bag-content" data-testid="bag-content">
                         <ul className="bag-books">
                             {
                                 bag.length ? bag.map((book, i) => {
@@ -51,7 +51,7 @@ const Bag = ({ bag }) => {
                                         </>
                                     )
 
-                                }) : <span className="no-books">No books found</span>
+                                }) : <span className="no-books" data-testid="no-books">No books found</span>
                             }
                         </ul>
                     </div>
